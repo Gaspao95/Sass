@@ -1,0 +1,44 @@
+@media (max-width: 756px){
+    .contenedorinit {
+        display: grid;
+            header {
+                
+                
+            
+                .h1 {
+                    font-family: 'Anton', sans-serif;
+                    color: white;
+                    padding-left: 20%;
+                
+            
+            }
+
+        }
+    }
+}
+@media (max-width: 568px){
+    .contenedorinit {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .3fr .3fr 2fr .5fr;
+    justify-items: stretch;
+    grid-template-areas:
+        "header header header header"
+        "nav nav nav nav"
+        "main main main main"
+        "historia historia historia historia";
+            header {
+                padding-left: 20%;
+                
+            
+                .h1 {
+                    font-family: 'Anton', sans-serif;
+                    color: white;
+                    padding-left: 20%;
+             
+            
+            }
+
+        }
+    }
+}

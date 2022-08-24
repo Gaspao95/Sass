@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    grid-area: footer;
+    background-color: black;
+    font-size: 20px;
+    justify-content: center;
+    
+
+    .logo {
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        .subtitulo{
+            color: aliceblue;
+        }
+
+        p {
+            padding: 5px;
+            color: aliceblue;
+        }
+    }
+
+    .icon {
+        margin-left: 10%;
+        
+    }
+
+    .razon {
+        text-align: center;
+        display: flex;
+        padding-right: 5%;
+        margin: 2rem;
+        color: aliceblue;
+    }
+}
