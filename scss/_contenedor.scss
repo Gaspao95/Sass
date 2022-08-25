@@ -19,3 +19,13 @@
         "main main main main"
         "historia historia historia historia";
 }
+
+.contenedorContacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .3fr .3fr 3.7fr;
+    grid-template-areas:
+        "header header header header"
+        "nav nav nav nav"
+        "imagenes imagenes imagenes imagenes"
+}

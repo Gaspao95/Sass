@@ -1,0 +1,17 @@
+.imagenes {
+    grid-area: imagenes;
+    display: flex;
+    justify-content: center;
+}
+
+.nosotros1 {
+    @include nosotros();
+}
+
+.nosotros2 {
+    @include nosotros();
+}
+
+.nosotros3 {
+    @include nosotros();
+}

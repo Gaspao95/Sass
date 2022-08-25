@@ -15,6 +15,50 @@ body {
   justify-items: stretch;
   grid-template-areas: "header header header header" "nav nav nav nav" "main main main main" "historia historia historia historia"; }
 
+.contenedorContacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: .3fr .3fr 3.7fr;
+  grid-template-areas: "header header header header" "nav nav nav nav" "imagenes imagenes imagenes imagenes"; }
+
+.imagenes {
+  grid-area: imagenes;
+  display: flex;
+  justify-content: center; }
+
+.nosotros1 {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  padding: 20px;
+  display: flex;
+  float: left;
+  margin-top: 150px;
+  margin-bottom: 120px; }
+
+.nosotros2 {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  padding: 20px;
+  display: flex;
+  float: left;
+  margin-top: 150px;
+  margin-bottom: 120px; }
+
+.nosotros3 {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  padding: 20px;
+  display: flex;
+  float: left;
+  margin-top: 150px;
+  margin-bottom: 120px; }
+
 .header {
   grid-area: header;
   text-align: center;
@@ -48,7 +92,7 @@ body {
   grid-area: main;
   display: flex;
   flex-direction: column;
-  margin-top: 15px;
+  margin-top: 110px;
   justify-content: center;
   align-items: center; }
   .main h2 {
@@ -94,7 +138,11 @@ body {
   grid-area: footer;
   background-color: black;
   font-size: 20px;
-  justify-content: center; }
+  justify-content: center;
+  width: 100%;
+  padding: 1em 0;
+  margin-bottom: 100px;
+  position: absolute; }
   .footer .logo {
     text-align: center;
     padding-left: 5%;
